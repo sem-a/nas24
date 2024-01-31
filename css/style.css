@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Florida';
+    src: url(../font/Florida\ Vibes\ by\ Turbologo.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+.screen_list {
+    background-image: url(../img/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    font-family: 'Florida';
+    background-image: url(../img/bg_title.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    color: transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.text {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 500;
+    color: #454545;
+    line-height: 24px;
+}
+
+.screen {
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.line {
+    position: absolute;
+    width: 1px;
+    height: 130px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+}
+.disco_ball_img img{
+    position: absolute;
+    width: 166px;
+    top: 105px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.one_screen_title {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1.title {
+    text-align: center;
+    font-size: 128px;
+    width: 217px;
+    line-height: 100px;
+    height: 221px;
+}
+.one_screen_text {
+    position: absolute;
+    width: 348px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 142px;
+}
+.one_screen_text p.text {
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* .screen {
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url(../img/IMG_6246.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    padding: 0 21px;
+}
+h1.title {
+    background-image: url(../img/1618534196_46-p-fon-serebryanie-blestki-50.jpg);
+    background-size:contain;
+    background-repeat: repeat;
+    text-align: center;
+    font-size: 128px;
+    font-family: 'Florida';
+    color: transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    height: 136px;
+}
+h2.title {
+    background-image: url(../img/1618534196_46-p-fon-serebryanie-blestki-50.jpg);
+    background-repeat: repeat;
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Florida';
+    color: transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.two_str {
+    margin-top: -42px;
+}
+
+.disco-shar-img {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.disco-shar-img img {
+    width: 166px;
+    position: absolute;
+    top: 137px;
+    transform: translateX(-50%);
+}
+.disco-shar-img .line {
+    width: 1px;
+    height: 161px;
+    background-color: #7B7B7B;
+    position: absolute;
+
+}
+.shar-active {
+    top: 0;
+    transition: all 1s ease 0s;
+}
+.s-one_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+p.text {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 600;
+    color: #454545;
+}
+p.fs-20 {
+    font-size: 20px;
+}
+.s-one_text {
+    text-align: center;
+} */
