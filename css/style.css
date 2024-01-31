@@ -31,7 +31,6 @@
 }
 
 .screen {
-    position: relative;
     min-width: 100vw;
     min-height: 100vh;
 }
@@ -39,6 +38,9 @@
     width: 90%;
     margin: 0 auto;
     min-height: 100vh;
+}
+.one_screen {
+    position: relative;
 }
 .line {
     position: absolute;
@@ -83,6 +85,46 @@ h1.title {
     text-align: center;
 }
 
+h2.title {
+    font-size: 96px;
+}
+.two_screen {
+    position: relative;
+}
+.two_screen_title {
+    text-align: left;
+    padding-top: 105px;
+}
+.two_screen_text {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 42px;
+}
+.two_screen_grid {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 83px 3px 83px;
+    justify-content: center;
+    gap: 16px;
+}
+.grid_line {
+    background-color: #454545;
+    border-radius: 10px;
+}
+.two_screen_grid p {
+    font-size: 18px;
+    text-align: center;
+}
+.disco_balls {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: translateY(50%);
+}
+.disco_balls img {
+    width: 100vw;
+}
 /* .screen {
     position: relative;
     min-width: 100vw;
