@@ -7,7 +7,6 @@
 .screen_list {
     background-image: url(../img/background.gif);
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
 }
 
