@@ -155,3 +155,57 @@ h3.title {
     font-size: 16px;
     margin-top: 14px;
 }
+
+.four_screen {
+    position: relative;
+}
+.disco_balls_bottom {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.four_screen_text p {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 225px;
+}
+.form_items {
+    margin-top: 56px;
+}
+label.form_label {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 500;
+    color: #454545;
+    line-height: 24px;
+    font-size: 20px;
+}
+.form_text {
+    font-size: 14px;
+    margin-top: 7px;
+}
+input.form_input {
+    width: 100%;
+    padding: 13px 21px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: black 2px solid;
+    margin-top: 14px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 500;
+    color: #454545;
+    line-height: 24px;
+}
+input.form_btn {
+    width: 100%;
+    padding: 13px 0px;
+    background-color: #668A8A;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 21px;
+}
