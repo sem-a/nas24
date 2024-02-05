@@ -4,6 +4,41 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
+body.modal_open {
+    overflow: hidden;
+}
+
+.modal {
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+}
+.modal_text {
+    position: absolute;
+    width: 100%;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 1s ease 1s;
+}
+._active_modal_text {
+    opacity: 100;
+    transition: all 1s ease 1s;
+}
+._hide_modal {
+    display: none;
+}
+
 .bg {
     position: fixed;
     top: 0;
