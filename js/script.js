@@ -1,13 +1,17 @@
+const modalText = (id, time) => {
+    id.classList.add('_active_modal_text');
+    setTimeout(() => {
+        id.classList.remove('_active_modal_text');
+    }, time)
+}
 const animStart = () => {
     text1 = document.querySelector('.m1');
     text2 = document.querySelector('.m2');
     text3 = document.querySelector('.m3');
     
-    text1.classList.add('_active_modal_text');
-    setTimeout(100, () => {
-        console.log('fsdf');
-        text1.classList.remove('_active_modal_text');
-    })
+    modalText(text1, 3000);
+    setTimeout( () => {modalText(text2, 4000)}, 4000);
+    setTimeout( () => {    text3.classList.add('_active_modal_text'); }, 9000);
 
 }
 const animOneScreen = () => {
@@ -20,4 +24,17 @@ const animOneScreen = () => {
     text.classList.add('_active_text');
 }
 
+
+play = document.querySelector('#play');
+modal = document.querySelector('.modal');
+
 window.onload = animStart;
+
+play.onclick = () => {
+    modal.classList.add('_hide_modal');
+    document.body.classList.remove('modal_open');
+    animOneScreen()
+    let audio = new Audio();
+    audio.src = '../music.mp3';
+    audio.autoplay = true;
+}
