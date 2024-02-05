@@ -1,8 +1,8 @@
 const modalText = (id, time) => {
     id.classList.add('_active_modal_text');
-    setTimeout(() => {
+    setTimeout(function() {
         id.classList.remove('_active_modal_text');
-    }, time)
+    }.bind(this), time)
 }
 const animStart = () => {
     text1 = document.querySelector('.m1');
@@ -10,8 +10,8 @@ const animStart = () => {
     text3 = document.querySelector('.m3');
     
     modalText(text1, 3000);
-    setTimeout( () => {modalText(text2, 4000)}, 4000);
-    setTimeout( () => {    text3.classList.add('_active_modal_text'); }, 9000);
+    setTimeout( function() {modalText(text2, 4000)}.bind(this), 4000);
+    setTimeout( function() {    text3.classList.add('_active_modal_text'); }.bind(this), 9000);
 
 }
 const animOneScreen = () => {
