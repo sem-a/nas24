@@ -27,6 +27,8 @@ const animOneScreen = () => {
 
 play = document.querySelector('#play');
 modal = document.querySelector('.modal');
+audio = document.querySelector('audio');
+audio.muted = false;
 
 window.onload = animStart;
 
@@ -34,7 +36,5 @@ play.onclick = () => {
     modal.classList.add('_hide_modal');
     document.body.classList.remove('modal_open');
     animOneScreen()
-    let audio = new Audio();
-    audio.src = '../music.mp3';
     audio.play();
 }
