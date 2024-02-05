@@ -36,5 +36,5 @@ play.onclick = () => {
     animOneScreen()
     let audio = new Audio();
     audio.src = '../music.mp3';
-    audio.autoplay = true;
+    audio.play();
 }
